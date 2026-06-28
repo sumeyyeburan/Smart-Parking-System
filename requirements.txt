@@ -1,9 +1,11 @@
-streamlit
-opencv-python-headless
-numpy
-pandas
-tensorflow-cpu
-ultralytics
-streamlit-drawable-canvas
-Pillow
-scikit-learn
+--extra-index-url https://download.pytorch.org/whl/cpu
+streamlit==1.32.2
+torch==2.2.2
+torchvision==0.17.2
+ultralytics==8.2.0
+opencv-python-headless==4.9.0.80
+pillow==10.2.0
+numpy==1.26.4
+pandas==2.2.1
+tensorflow-cpu==2.15.0
+streamlit-drawable-canvas==0.9.3
